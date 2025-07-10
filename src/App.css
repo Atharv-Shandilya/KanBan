@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+body {
+  @apply bg-black p-10 font-[Inter];
+}
+
+@theme {
+  --color-card-base: #242424;
+  --color-text-primary: #fff;
+  --color-text-secondary: #c5c5c5;
+  --color-outline: #838383;
+  --color-accent: #4e4ebb;
+}
