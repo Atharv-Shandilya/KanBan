@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 
 export default ({
   error,
@@ -32,7 +32,6 @@ export default ({
     if (d.length !== 2 || m.length !== 2 || y.length !== 2) return;
     const day = parseInt(d, 10);
     const mon = parseInt(m, 10);
-    const yr = parseInt(y, 10);
 
     if (mon < 1 || mon > 12) return setError(true);
 
